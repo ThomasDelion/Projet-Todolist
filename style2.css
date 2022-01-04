@@ -1,11 +1,267 @@
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,0.8) 0%, rgba(0,168,255,0.9) 100%);
+
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pendingTasks {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 400;
+    color: #f29898;
+    text-align: left;
+}
+button, select {
+    text-transform: none;
+    position: relative;
+    list-style: none;
+    height: 30px;
+    line-height: 35px;
+    margin-bottom: 8px;
+    background: #fff;
+    border-radius: 3px;
+    padding: 0 50px 33px;
+    cursor: default;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.container header {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container .inputField {
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    height: 45px;
+}
+.inputField button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+.wrapper .todoList {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todoList li {
+    position: relative;
+    list-style: none;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 8px;
+    background: linear-gradient(90deg, rgba(255,0,0,0.5) 0%, rgba(0,168,255,0.6) 100%);
+    border-radius: 5px;
+    padding: 0 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.todoList li .icon {
+    position: absolute;
+    right: -45px;
+    background: #dc0e25;
+    width: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.todoList li:hover .icon {
+    right: 0px;
+}
+
+.wrapper .footer {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: #21a1d5;
+    width: 500px;
+    margin: 115px auto;
+    box-shadow: 0px 0px 5px rgba(242,242,242,255);
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container2 {
+    border-radius: 10px;
+    background-color: #095776;
+    border-color: #21a1d5;
+    width: 500px;
+    margin: -115px auto;
+    box-shadow: 0px 0px 5px rgba(242,242,242,255);
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 10px;
+}
+h2 {
+    color: #f29898;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+.table {
+    border-radius: 10px;
+    background-color: #095776;
+    border-color: #21a1d5;
+    width: 500px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px rgba(242,242,242,255);
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.texte {
+    border-radius: 10px;
+    background-color: #fff;;
+    border-color: #dc0e25;
+    width: 500px;
+    margin: -90px auto;
+    box-shadow: 0px 0px 5px rgba(242,242,242,255);
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.heading{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: 	#dc0e25;
+    background: #FFF;
+    border: 2px solid #dc0e25;
+    border-radius: 20px;
+}
+.task_input {
+    width: 78%;
+    height: 37px;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(255,0,0,0.4) 42%, rgba(0,168,255,0.2) 100%);
+}
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+    font-size: 19px;
+    color: #dc0e25;
+}
+
+th, td{
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: #E9E9E9;
+}
+
+.task {
+    text-align: left;
+}
+
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: white;
+    background: #dc0e25;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+
+// If you felt the name is not-so-pretty,
+// you can always change!
+
+$pretty--class-name: pretty;
+
+// are you sure, you wanna change my handpicked
+// awesome super duper colors?
+
+$pretty--color-default:#bdc3c7;
+$pretty--color-primary:#428bca;
+$pretty--color-info:#5bc0de;
+$pretty--color-success:#5cb85c;
+$pretty--color-warning:#f0ad4e;
+$pretty--color-danger:#d9534f;
+$pretty--color-dark:#5a656b;
+
+// uh, boring z-index stuff, who cares.
+
+$pretty--z-index-back:0;
+$pretty--z-index-between:1;
+$pretty--z-index-front:2;
+
+// nobody will change this.
+
+$pretty--debug:false;
+$pretty--dev-err:'Invalid input type!';
+
 .btn-danger {
     color: #000;
-    background-color: #f17f3f00;
-    border-color: #dc0e25;
+    background-color: #3ca5ec;
+    border-color: #3ca5ec;
 }
 
 .navbar-light .navbar-brand {
-    color: #dc0e25;
+    color: #3ca5ec;
 }
 
 

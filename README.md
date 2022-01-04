@@ -1,3 +1,3 @@
-Note : tout est fonctionnel sauf la partie (timer et worksession) dans la base de donnée... je n'ai pas réussi a les lier. 
+Note : tout est fonctionnel sauf la partie sauvegardée dans la base de données des tâches, les taches sont donc stockées en local.
 
 THOMAS DELION

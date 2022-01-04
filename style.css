@@ -1,5 +1,19 @@
-//Style.css de login et inscription//
-            
+body {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,0.8) 0%, rgba(0,168,255,0.9) 100%);
+
+}
+.login-form {
+    border-radius: 10px;
+    background-color: #fff;
+    border-color: #21a1d5;
+    width: 500px;
+    margin: 115px auto;
+    box-shadow: 0px 0px 5px rgba(242,242,242,255);
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .login-form h2 {
 margin: 0 0 15px;
 }
@@ -16,7 +30,7 @@ background-color: #f17f3f00;
 }
             
 .btn-primary {
-color: #fff;
+color: #000;
 border-color: #21a1d5;
 }
             

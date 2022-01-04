@@ -9,12 +9,14 @@
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
             <title>Connexion</title>
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <link rel="stylesheet" href="./style2.css">
             <link rel="stylesheet" href="./style.css">
         </head>
         <body>
-        <body style="background-color:#fff;">
-        
+        <nav class="navbar navbar-light bg-light"> <!-- navbar pour mettre mon bouton déconnection -->
+            <div class="container-fluid">
+                <img src="./logo.png" alt="promeo-logo" width="60px" height="60px">
+            </div>
+        </nav>
         <div class="login-form">
              <?php 
                 if(isset($_GET['login_err']))
@@ -67,23 +69,11 @@
             </form>
             <p class="btn btn-primary btn-block"><a href="inscription.php">Créer un compte</a></p>
         </div>
-        
-        <style>
-        .login-form {
-        border-radius: 10px;
-        background-color: #095776;
-        border-color: #21a1d5;
-        width: 500px;
-        margin: 115px auto;
-        box-shadow: 0px 0px 5px rgba(242,242,242,255); 
-        padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 10px;
-        }
-        
-        a {
-        color: #fff;
-        }
-        </style>
+
+<style>
+    a {
+        color: #000;
+    }
+</style>
         </body>
 </html>

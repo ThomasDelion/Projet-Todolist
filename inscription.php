@@ -12,8 +12,11 @@
             <link rel="stylesheet" href="./style.css">
         </head>
         <body>
-        <body style="background-color:#fff;">
-
+        <nav class="navbar navbar-light bg-light"> <!-- navbar pour mettre mon bouton déconnection -->
+            <div class="container-fluid">
+                <img src="./logo.png" alt="promeo-logo" width="60px" height="60px">
+            </div>
+        </nav>
         <div class="login-form">
             <?php 
                 if(isset($_GET['reg_err']))
@@ -100,20 +103,9 @@
         </div>
 
         <style>
-        .login-form {
-                border-radius: 10px;
-                background-color: #095776;
-                border-color: #21a1d5;
-                width: 500px;
-                margin: 115px auto;
-                box-shadow: 0px 0px 5px rgba(242,242,242,255); 
-                padding: 20px;
-                padding-top: 40px;
-                padding-bottom: 40px;
-                }
-                
+
         a {
-        color: #fff;
+        color: #000;
         }
         
         </style>
