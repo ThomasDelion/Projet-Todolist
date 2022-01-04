@@ -1,0 +1,32 @@
+//Style.css de login et inscription//
+            
+.login-form h2 {
+margin: 0 0 15px;
+}
+            
+.form-control, .btn {
+min-height: 38px;
+border-radius: 2px;
+}
+            
+.btn {        
+font-size: 15px;
+font-weight: bold;
+background-color: #f17f3f00;
+}
+            
+.btn-primary {
+color: #fff;
+border-color: #21a1d5;
+}
+            
+a {
+color: #f17f3f00;
+text-decoration: none;
+background-color: transparent;
+}
+
+
+
+
+
